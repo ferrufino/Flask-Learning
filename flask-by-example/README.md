@@ -1,10 +1,10 @@
 # How to make it run and test API
 
 ##Run:
-python worker.py &
+
 
 redis-server &
-
+python worker.py &
 python manage.py runserver
 
 ##Test it:

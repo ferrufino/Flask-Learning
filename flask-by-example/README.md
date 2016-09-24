@@ -4,7 +4,9 @@
 
 
 redis-server &
+
 python worker.py &
+
 python manage.py runserver
 
 ##Test it:
